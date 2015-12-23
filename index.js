@@ -546,8 +546,7 @@ class Router extends React.Component {
                 {header}
                 <ExNavigator ref="nav"
                              initialRouteStack={initialRoutes.map((route) => new ExRoute(route, this.schemas))}
-                             style={styles.transparent}
-                             sceneStyle={{ paddingTop: 64 }}
+                             sceneStyle={{ paddingTop: 20 }}
                              showNavigationBar={!this.props.hideNavBar}
                     {...this.props}
 
